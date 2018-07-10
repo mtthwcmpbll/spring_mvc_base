@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: FitnessTracker
+  mvc:
+    static-path-pattern: /**
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
